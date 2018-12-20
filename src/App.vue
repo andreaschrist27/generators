@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Profile/>
-    <Portofolio/>
+    <v-app>
+      <Profile/>
+      <Portofolio/>
+    </v-app>
   </div>
 </template>
 

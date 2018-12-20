@@ -67,7 +67,7 @@ export default {
                   title:'Semester Antara',
                   year: '2015-2018',
                   short_description:'Sistem Informasi Akademik semester antara Fakultas Teknik Universitas Tanjungpura',
-                  image: require('../assets/semester-antara.png'),
+                  image: require('../assets/semester_antara.jpg'),
                   tools : ['Laravel'],
                   url:'http://sa.teknik.untan.ac.id/',
                   status: true
@@ -76,7 +76,7 @@ export default {
                   title:'International Conference',
                   year: '2016',
                   short_description:'Sistem Informasi konferensi internasional Universitas Tanjungpura',
-                  image: require('../assets/international-conference.png'),
+                  image: require('../assets/international_conference.jpg'),
                   tools : [],
                   url:'http://icb.untan.ac.id/',
                   status: true
@@ -85,7 +85,7 @@ export default {
                   title:'Penjadwalan',
                   year: '2015-2016',
                   short_description:'Sistem Penjadwalan mata kuliah dengan algoritma genetika',
-                  image: require('../assets/penjadwalan.png'),
+                  image: require('../assets/penjadwalan.jpg'),
                   tools : ['PHP'],
                   url: false,
                   status: true
@@ -94,7 +94,7 @@ export default {
                   title:'SDA PUPR',
                   year: '2017',
                   short_description:'Sistem Informasi Sumber Daya Air, Pekerjaan Umum dan Perumahan Rakyat Kabupaten Landak ',
-                  image: require('../assets/pupr.png'),
+                  image: require('../assets/pupr.jpg'),
                   tools : ['Laravel'],
                   url: false,
                   status: true
@@ -103,7 +103,7 @@ export default {
                   title:'Siakad Mahasiswa',
                   year: '2017-2018',
                   short_description:'Sistem Informasi Akademik Universitas Tanjungpura ',
-                  image: require('../assets/siakad-mahasiswa.png'),
+                  image: require('../assets/siakad_mahasiswa.jpg'),
                   tools : ['Laravel'],
                   url: 'http://mahasiswa.siakad.untan.ac.id/',
                   status: true
@@ -112,7 +112,7 @@ export default {
                   title:'Siakad Dosen',
                   year: '2017-2018',
                   short_description:'Sistem Informasi Akademik Universitas Tanjungpura ',
-                  image: require('../assets/siakad-dosen.png'),
+                  image: require('../assets/siakad_dosen.jpg'),
                   tools : ['Laravel'],
                   url: 'http://dosen.siakad.untan.ac.id/',
                   status: true
@@ -121,7 +121,7 @@ export default {
                   title:'Evaluasi Dosen Oleh Mahasiswa',
                   year: '2017-2018',
                   short_description:'Sistem Penilaian kinerja dosen oleh mahasiswa ',
-                  image: require('../assets/edom.png'),
+                  image: require('../assets/edom.jpg'),
                   tools : ['Laravel'],
                   url: 'http://edom.untan.ac.id/',
                   status: true
@@ -130,7 +130,7 @@ export default {
                   title:'Evaluasi Layanan Oleh Mahasiswa',
                   year: '2017-2018',
                   short_description:'Sistem penilaian oleh mahasiswa terhadap layanan yang diberikan Universitast Tanjungpura ',
-                  image: require('../assets/elom.png'),
+                  image: require('../assets/elom.jpg'),
                   tools : ['Laravel','ACL','VueJS'],
                   url: 'https://evaluasi.untan.ac.id/',
                   status: true
@@ -139,7 +139,7 @@ export default {
                   title:'Frontend Presensi Online Mahasiswa',
                   year: '2018',
                   short_description:'Frontend Sistem Presensi Online Mahasiswa Universitas Tanjungpura',
-                  image: require('../assets/frontend-presensi-mahasiswa.png'),
+                  image: require('../assets/frontend_presensi_mahasiswa.jpg'),
                   tools : ['VueCLI'],
                   url: 'https://mahasiswa.presensi.untan.ac.id/',
                   status: true
@@ -148,7 +148,7 @@ export default {
                   title:'Frontend Presensi Online Dosen',
                   year: '2018',
                   short_description:'Frontend Sistem Presensi Online Dosen Universitas Tanjungpura',
-                  image: require('../assets/frontend-presensi-dosen.png'),
+                  image: require('../assets/frontend_presensi_dosen.jpg'),
                   tools : ['VueCLI'],
                   url: 'http://dosen.presensi.untan.ac.id/',
                   status: true
@@ -157,7 +157,7 @@ export default {
                   title:'Backend Presensi Online',
                   year: '2018',
                   short_description:'Backend Sistem Presensi Online Universitas Tanjungpura',
-                  image: require('../assets/backend-presensi.png'),
+                  image: require('../assets/backend_presensi.jpg'),
                   tools : ['Laravel'],
                   url: 'https://presensi.untan.ac.id/',
                   status: true
@@ -166,7 +166,7 @@ export default {
                   title:'Backend UNTAN',
                   year: '2018',
                   short_description:'Backend Universitas Tanjungpura',
-                  image: require('../assets/backend-untan.png'),
+                  image: require('../assets/backend_untan.jpg'),
                   tools : ['Laravel','Redis','Horizon'],
                   url: false,
                   status: false
@@ -175,7 +175,7 @@ export default {
                   title:'Konveksi Online dan Custom T-shirt',
                   year: '2018',
                   short_description:'C2B, Konveksi dan custom T-shirt',
-                  image: require('../assets/custom-clothes.png'),
+                  image: require('../assets/custom_clothes.jpg'),
                   tools : ['Laravel','VueJS','Canvas','AWS'],
                   url: false,
                   status: false

@@ -43,6 +43,18 @@
             </v-card>
         </v-flex>
     </v-layout>
+    <v-layout>
+        <v-flex xs12 pt-4>
+            <v-alert 
+            :value="true"
+            color="info"
+            icon="info"
+            outline
+            >
+            Need More Information ?  <v-btn round color="primary" href="https://goo.gl/fKVEwh" target="_blank" dark>Download CV</v-btn>
+            </v-alert>
+        </v-flex>
+    </v-layout>
   </v-container>
 </template>
 <script>

@@ -24,5 +24,42 @@
         </v-card>
       </v-flex>
     </v-layout>
+     <v-layout row justify-center>
+      <v-flex xs12>
+               <v-btn
+                v-for="(social, i) in socials"
+                :key="i"
+                :color="social.color"
+                class="white--text"
+                fab
+                icon
+                small
+                :href="social.link"
+                target="_blank"
+              >
+                <v-icon>{{ social.icon }}</v-icon>
+              </v-btn>
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
+<script>
+export default {
+  data() {
+    return {
+        socials: [
+        {
+          icon: 'fab fa-facebook',
+          color: 'indigo',
+          link:'https://www.facebook.com/AndreasChristianOfficialAccount'
+        },
+        {
+          icon: 'fab fa-github',
+          color: 'grey darken-3',
+          link:'https://github.com/andreaschrist27'
+        }
+      ]
+    }
+  }
+}
+</script>

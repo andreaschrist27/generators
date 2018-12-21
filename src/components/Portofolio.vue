@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout row wrap>
-        <v-flex xs12 md4 v-for="project in projects" :key="project.title" pr-4 pt-3>
+        <v-flex xs12 md4 v-for="project in projects" :key="project.title" px-3 pb-4>
             <v-card>
                 <v-img :gradient="!project.status ? gradient:''"
                 :src="project.image"
@@ -44,7 +44,7 @@
         </v-flex>
     </v-layout>
     <v-layout>
-        <v-flex xs12 pt-4>
+        <v-flex xs12 pt-4 px-3>
             <v-alert 
             :value="true"
             color="info"

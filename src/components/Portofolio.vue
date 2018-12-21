@@ -65,7 +65,7 @@ export default {
           projects : [
               {
                   title:'Semester Antara',
-                  year: '2015-2018',
+                  year: '2016-2018',
                   short_description:'Sistem Informasi Akademik semester antara Fakultas Teknik Universitas Tanjungpura',
                   image: require('../assets/semester_antara.jpg'),
                   tools : ['Laravel'],
@@ -83,7 +83,7 @@ export default {
               },
               {
                   title:'Penjadwalan',
-                  year: '2015-2016',
+                  year: '2016',
                   short_description:'Sistem Penjadwalan mata kuliah dengan algoritma genetika',
                   image: require('../assets/penjadwalan.jpg'),
                   tools : ['PHP'],

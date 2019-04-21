@@ -162,24 +162,15 @@ export default {
                   url: 'https://presensi.untan.ac.id/',
                   status: true
               },
-             {
-                  title:'Backend UNTAN',
-                  year: '2018',
-                  short_description:'Backend Universitas Tanjungpura',
-                  image: require('../assets/backend_untan.jpg'),
-                  tools : ['Laravel','Redis','Horizon'],
-                  url: false,
-                  status: false
-              },
                {
-                  title:'Konveksi Online dan Custom T-shirt',
-                  year: '2018',
-                  short_description:'C2B, Konveksi dan custom T-shirt',
-                  image: require('../assets/custom_clothes.jpg'),
-                  tools : ['Laravel','VueJS','Canvas','AWS'],
+                  title:'Aplikasi Stok dan Gaji',
+                  year: '2019',
+                  short_description:'Aplikasi perusahaan untuk memanajemen stok bahan, po, packing list, plakat, gaji dan lainnya.',
+                  image: require('../assets/gch.png'),
+                  tools : ['Laravel','VueJS'],
                   url: false,
-                  status: false
-              },
+                  status: true
+              }
           ],
           gradient: 'to top right, rgba(63,81,181, .7), rgba(25,32,72, .7)'
       }

@@ -170,6 +170,25 @@ export default {
                   tools : ['Laravel','VueJS'],
                   url: false,
                   status: true
+              },
+               {
+                  title:'Cetak Murah Indonesia',
+                  year: '2019',
+                  short_description:'Web Company Profile tenang produk-produk / jasa printing.',
+                  image: require('../assets/cetakmurah.png'),
+                  tools : ['Laravel','VueJS'],
+                  url: 'http://cetakmurahindonesia.com',
+                  status: true
+              }
+              ,
+               {
+                  title:'Sporta Indonesia',
+                  year: '2019',
+                  short_description:'Sistem pendaftaran peserta / partisipan event lari.',
+                  image: require('../assets/sporta.jpeg'),
+                  tools : ['Laravel','VueJS'],
+                  url: 'https://sportaindonesia.com/registration/',
+                  status: true
               }
           ],
           gradient: 'to top right, rgba(63,81,181, .7), rgba(25,32,72, .7)'

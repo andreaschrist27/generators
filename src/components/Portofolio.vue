@@ -168,7 +168,7 @@ export default {
                   short_description:'Aplikasi perusahaan untuk memanajemen stok bahan, po, packing list, plakat, gaji dan lainnya.',
                   image: require('../assets/gch.png'),
                   tools : ['Laravel','VueJS'],
-                  url: false,
+                  url: 'https://grahaciptahardika.com',
                   status: true
               },
                {
@@ -177,7 +177,7 @@ export default {
                   short_description:'Web Company Profile tenang produk-produk / jasa printing.',
                   image: require('../assets/cetakmurah.png'),
                   tools : ['Laravel','VueJS'],
-                  url: 'http://cetakmurahindonesia.com',
+                  url: false,
                   status: true
               }
               ,
@@ -187,7 +187,7 @@ export default {
                   short_description:'Sistem pendaftaran peserta / partisipan event lari.',
                   image: require('../assets/sporta.jpeg'),
                   tools : ['Laravel','VueJS'],
-                  url: 'https://sportaindonesia.com/registration/',
+                  url: false,
                   status: true
               }
           ],
